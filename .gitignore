@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignorar ambiente virtual
 .venv/
 
@@ -14,3 +15,21 @@ Thumbs.db
 
 # Ignorar o arquivo .env, se for necessário
 .env
+=======
+# Ignorar ambiente virtual
+.venv/
+
+# Ignorar arquivos de compilação do Python
+*.pyc
+__pycache__/
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar o arquivo .env, se for necessário
+.env
+>>>>>>> b16f573bee09901589c2998b582eb73978db5c3c

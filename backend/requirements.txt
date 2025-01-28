@@ -1,0 +1,7 @@
+flask
+googlemaps
+qrcode
+pillow
+geopy
+python-dotenv
+ortools

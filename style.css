@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -19,4 +20,27 @@ textarea {
 #qr-code {
     max-width: 200px;
     height: auto;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 400px;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+#qr-code {
+    max-width: 200px;
+    height: auto;
+>>>>>>> b16f573bee09901589c2998b582eb73978db5c3c
 }
