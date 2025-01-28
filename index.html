@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Rotas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Gerador de Rotas</h1>
+    <form id="form-rota">
+        <label for="ponto-inicio">Ponto de Início:</label>
+        <input type="text" id="ponto-inicio" required>
+        <br>
+        <label for="enderecos">Endereços (um por linha):</label>
+        <textarea id="enderecos" rows="5" required></textarea>
+        <br>
+        <button type="submit">Criar Rota</button>
+    </form>
+
+    <div id="resultado" style="display: none;">
+        <h2>Resultado:</h2>
+        <img id="qr-code" src="" alt="QR Code da Rota">
+        <a id="route-link" href="#" target="_blank">Ver Rota no Google Maps</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
